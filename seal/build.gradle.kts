@@ -35,3 +35,17 @@ android {
 }
 
 dependencies.implementation("androidx.core:core-ktx:1.10.0")
+
+afterEvaluate {
+    publishing {
+        publications {
+            register<MavenPublication>("release") {
+//                groupId = "com.github.sunkengxd"
+//                artifactId = "plank-seal"
+//                version = "1.0"
+
+                    from(components["release"])
+            }
+        }
+    }
+}
