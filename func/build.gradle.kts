@@ -45,10 +45,6 @@ afterEvaluate {
     publishing {
         publications {
             register<MavenPublication>("release") {
-//                groupId = "com.github.sunkengxd"
-//                artifactId = "plank-seal"
-//                version = "1.0"
-
                 from(components["release"])
             }
         }
