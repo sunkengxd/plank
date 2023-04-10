@@ -1,8 +1,13 @@
-<p align="center">
- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![](https://jitpack.io/v/sunkengxd/plank.svg)](https://jitpack.io/#sunkengxd/plank)
-</p>
-
 # Plank
+
+<p align="center">
+    <a href="https://opensource.org/licenses/MIT">
+        <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    </a>
+    <a href="https://jitpack.io/#sunkengxd/plank">
+        <img alt="Jitpack" src="https://jitpack.io/v/sunkengxd/plank.svg" />
+    </a>
+</p>
 
 Plank is an Android library for easy logging using context receivers.
 
