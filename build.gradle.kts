@@ -4,3 +4,11 @@ plugins {
     id("com.android.library") version "7.4.2" apply false
     kotlin("android") version "1.8.20" apply false
 }
+
+allprojects {
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile::class.java).all {
+        kotlinOptions {
+            freeCompilerArgs = listOf("-Xcontext-receivers")
+        }
+    }
+}
