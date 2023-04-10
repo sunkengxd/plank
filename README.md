@@ -1,4 +1,5 @@
 # Plank
+Plank is an Android library for easy logging using context receivers.
 
 <p align="center">
     <a href="https://opensource.org/licenses/MIT">
@@ -8,8 +9,6 @@
         <img alt="Jitpack" src="https://jitpack.io/v/sunkengxd/plank.svg" />
     </a>
 </p>
-
-Plank is an Android library for easy logging using context receivers.
 
 ## Flavours
 
