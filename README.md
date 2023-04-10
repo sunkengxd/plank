@@ -24,7 +24,28 @@ Plank.d("Logging using the «classic» flavour")
 All of the above yield the same results and the tag is inferred based on the class from which the message is logged. In this case, **the only difference is syntax**.
 
 ## Installation
-TODO
+1. Choose one flavour:
+    - Seal
+    ```kotlin
+    implementation("com.github.sunkengxd.plank:seal:1.1.4")
+    ```
+    - Func
+    ```kotlin
+    implementation("com.github.sunkengxd.plank:func:1.1.4")
+    ```
+    - Classic
+    ```kotlin
+    implementation("com.github.sunkengxd.plank:classic:1.1.4")
+    ```
+
+2. Add kotlin compiler options:
+```kotlin
+// module-level build.gradle.kts
+kotlinOptions {
+    // ...
+    freeCompilerArgs = listOf("-Xcontext-receivers")
+}
+```
 
 ## Usage
 Apart from logging, the library supports muting the messages. All of the below can only be called from the *Application* class.
