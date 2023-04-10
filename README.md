@@ -35,15 +35,15 @@ All of the above yield the same results and the tag is inferred based on the cla
 1. Choose one flavour:
     - Seal
     ```kotlin
-    implementation("com.github.sunkengxd.plank:seal:1.1.4")
+    implementation("com.github.sunkengxd.plank:seal:1.0.0")
     ```
     - Func
     ```kotlin
-    implementation("com.github.sunkengxd.plank:func:1.1.4")
+    implementation("com.github.sunkengxd.plank:func:1.0.0")
     ```
     - Classic
     ```kotlin
-    implementation("com.github.sunkengxd.plank:classic:1.1.4")
+    implementation("com.github.sunkengxd.plank:classic:1.0.0")
     ```
 
 2. Add kotlin compiler options:
